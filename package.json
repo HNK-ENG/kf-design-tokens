@@ -1,0 +1,14 @@
+{
+  "name": "@hnk-eng/design-tokens",
+  "version": "1.0.0",
+  "description": "Shared Tailwind design tokens for Kelly Felder",
+  "files": [
+    "theme.css"
+  ],
+  "exports": {
+    "./theme.css": "./theme.css"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

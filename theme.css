@@ -1,0 +1,44 @@
+@theme {
+  /* The following adds new theme variables that are not included in Tailwind's default theme. Tailwind can use these variables when generating utility classes for the project. */
+
+  /* Backgrounds */
+  --color-background: #ffffff;
+  --color-background-alt: #f8f7f6;
+  --color-background-hover: #f8f8f8;
+  --color-background-overlay: rgb(0 0 0 / 75%);
+
+  /* Text */
+  --color-foreground: #000000;
+  --color-foreground-muted: #737479;
+  --color-foreground-disabled: #666666;
+
+  /* Interactive (nav links, buttons) */
+  --color-primary: #000000;
+  --color-primary-hover: #555555;
+  --color-primary-active: #757575;
+  --color-border: #d9d9d9;
+
+  /* Brand */
+  --color-brand: #e50010;
+  --color-notification: #e50010;
+
+  /* Status */
+  --color-success: #008744;
+  --color-error: #d6001c;
+  --color-warning: #ff9c00;
+  --color-focus: #0091ff;
+
+  /*The following overrides Tailwind's built-in theme variables. */
+
+  --font-sans:
+    'Archivo', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    sans-serif;
+  --font-serif: 'EB Garamond', Garamond, 'Times New Roman', Times, serif;
+
+  --text-xs: 0.6875rem; /* 11px — meta text */
+  --text-sm: 0.8125rem; /* 13px — body default, footer links */
+  --text-base: 1rem; /* 16px — nav parent link, inputs */
+  --text-lg: 1.25rem; /* 20px — nav parent link (desktop) */
+  --text-xl: 1.5rem; /* 24px — heading-l */
+  --text-2xl: 2rem; /* 32px — heading-l (desktop) */
+}
